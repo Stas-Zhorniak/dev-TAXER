@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TAXER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+<div class="container">
+        <div class="btn-add-container">
+            <button id="btn-add">Добавити</button>
+            <button id="btn-cancel">Назад</button>
+            <span>Немає жодного сертифікату</span>
+            <div class="certificates-list"></div>
+        </div>
+    <div class="btn-change-container">
+        <label for="btn-change">Перетягніть файл сертифікату сюди або <span class="btn-change">Виберіть через стандартний діалог</span></label>
+        <input id="btn-change" type="file" accept=".cer">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
